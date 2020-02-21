@@ -16,3 +16,15 @@
   margin-left: 650px;
   width: auto;
 }
+.card {
+  display: -ms-flexbox;
+  /* display: flex; */
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-image: url("/home/mary/Documents/moringa-school-projects/Delani-Studios/images/backgrounds/s_image.jpg");
+  /* background-clip: border-box; */
+  height: 240px;
+  margin-top: 20px;
+}

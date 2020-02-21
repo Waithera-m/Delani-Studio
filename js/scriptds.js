@@ -12,5 +12,11 @@ $(document).ready(function(){
     "text-align":"center"
   }
   )
+  $("#services").css({
+    "text-align":"center",
+    "color":"white",
+    "padding":"60px"
+  }
+  )
 }
 )
