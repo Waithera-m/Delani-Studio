@@ -54,6 +54,14 @@ body{
   margin-left: auto;
   display: block;
 }
+.containerQuatre{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url("/home/mary/Documents/moringa-school-projects/Delani-Studios/images/backgrounds/c_image.jpg");
+}
 /* #arrow {
   display: none;
 } */
