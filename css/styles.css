@@ -1,4 +1,7 @@
-.jumbotron{
+body{
+  font-family: 'EB Garamond', ;
+}
+.jumbotron {
     padding: 2rem 1rem;
     margin-bottom: 2rem;
     background-image: url("/home/mary/Documents/moringa-school-projects/Delani-Studios/images/jbackground.jpg");
@@ -6,12 +9,12 @@
     height: 800px;
     border-radius: 0.3rem;
 }
-#logo{
+#logo {
   margin-top: 200px;
   margin-left: 600px;
   width: auto;
 }
-#mouse{
+#mouse {
   margin-top: 270px;
   margin-left: 650px;
   width: auto;
@@ -27,18 +30,7 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
-/* .containerTwo {
-  display: -ms-flexbox;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  height: 240px;
-  margin-top: 20px;
-  justify-content: center;
-  width: 100%;
-} */
-.containerTwo{
+.containerTwo {
   width: 80%;
   justify-content: center;
   align-items: center;
@@ -46,10 +38,22 @@
   padding-left: 10px;
   margin-right: auto;
   margin-left: auto;
+  display: block;
 }
-/* .flex-container {
-  display: flex;
-  height: 600px;
-  flex-wrap: wrap;
-  align-content: space-between;
+.pft {
+  width: 100%;
+  margin-top: 30px;
+}
+.containerTrois {
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+/* #arrow {
+  display: none;
 } */
