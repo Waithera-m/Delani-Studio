@@ -16,7 +16,7 @@
   margin-left: 650px;
   width: auto;
 }
-.card {
+.containerOne {
   display: -ms-flexbox;
   /* display: flex; */
   -ms-flex-direction: column;
