@@ -8,7 +8,7 @@ $(document).ready(function(){
     "text-align": "center",
     "color": "white"
   })
-  $("#about").css({
+  $("#identity").css({
     "text-align":"center"
   }
   )
@@ -18,5 +18,9 @@ $(document).ready(function(){
     "padding":"60px"
   }
   )
+  // $(".container").css({
+  //   "max-width": "970px"
+  // }
+  // )
 }
 )
