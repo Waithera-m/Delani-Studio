@@ -27,10 +27,29 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.container{
-  width: 60%;
-  padding-right: 15px;
-  padding-left: 15px;
+/* .containerTwo {
+  display: -ms-flexbox;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  height: 240px;
+  margin-top: 20px;
+  justify-content: center;
+  width: 100%;
+} */
+.containerTwo{
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+  padding-left: 10px;
   margin-right: auto;
   margin-left: auto;
 }
+/* .flex-container {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: space-between;
+} */
