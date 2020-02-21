@@ -1,0 +1,8 @@
+.jumbotron{
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-image: url("/home/mary/Documents/moringa-school-projects/Delani-Studios/images/jbackground.jpg");
+    background-size: cover;
+    height: 500px;
+    /* border-radius: 0.3rem; */
+}
