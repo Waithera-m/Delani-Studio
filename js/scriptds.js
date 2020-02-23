@@ -24,7 +24,20 @@ $(document).ready(function(){
 }
 );
 
+//Validate users' input
+validaterUserInput();
 
+function validaterUserInput(){
+  let userName = document.getElementById("cname").value;
+  if(userName === "" || username === null){
+    alert("Please enter your name");
+    return false;
+  }
+}
+
+$("#intouch").submit(function(event){
+  $()
+})
 
 // Add toggle effect
 
