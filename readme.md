@@ -10,14 +10,14 @@ All known bugs have been fixed, but if you encounter any please notify the creat
 ## Behavior Driven Development (BDD)
 |Behavior               |Input                                           |Output                                                      |
 |-----------------------|------------------------------------------------|------------------------------------------------------------|
-|The landing page loads |User clicks scrolls, clicks amd hovers on icons |User sees' different services descriptions and project names|
+|The landing page loads |User scrolls, clicks, and hovers on icons       |User sees different services' descriptions and project names|
 ## Technologies Used
 * HTML - HTML dictates the structure of webpages. The markup language was used to create the form.
 * jQuery - jQuery enhances the interactiveness of a webpage. The javascript library was used to change the apperance and alignment of text in the jumbotron, to toggle between "What We Do" icons and their descriptions, and to overlay project names on the portfolio icons.
 * CSS - CSS determines the appearance of webpages. The styling language was used to create a jumbotron, panels, and add background image and colors.
 * JavaScript - JavaScript determines the behavior of a webpage. The programming language was used to validate users' input.
 ## Support and contact details
-You are free to suggest and improve the code. To makes your changes:
+You are free to suggest and improve the code. To make your changes:
 * Fork the repo
 * Create a new branch
 * Create, add, commit, and push your changes to the branch
