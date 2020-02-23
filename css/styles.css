@@ -54,13 +54,35 @@ body{
   margin-left: auto;
   display: block;
 }
-.containerQuatre{
+.containerQuatre {
+  display: -ms-flexbox;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-image: url("/home/mary/Documents/moringa-school-projects/Delani-Studios/images/backgrounds/c_image.jpg");
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  align-items: center;
+  height: 300px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left:-144px;
+}
+input[type="text"] {
+  background: transparent;
+}
+textarea[type="text"]{
+  background: transparent;
+}
+.containercinq {
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+  padding-left: 10px;
   margin-right: auto;
   margin-left: auto;
-  background-image: url("/home/mary/Documents/moringa-school-projects/Delani-Studios/images/backgrounds/c_image.jpg");
+  display: block;
 }
 /* #arrow {
   display: none;

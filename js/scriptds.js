@@ -18,6 +18,10 @@ $(document).ready(function(){
     "padding":"60px"
   }
   );
+  $("#intouch").css({
+    "color":"white",
+  }
+  );
   // $(".clickable").click(function(){
   //   $('#arrow.p').hide();
   // }
