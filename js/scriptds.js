@@ -10,6 +10,9 @@ $(document).ready(function(){
     "text-align": "center",
     "color": "white"
   });
+  $("#log").css({
+    "align-items": "center"
+  });
   $("#identity").css({
     "text-align":"center"
   });
@@ -24,20 +27,23 @@ $(document).ready(function(){
 }
 );
 
-//Validate users' input
-validaterUserInput();
-
-function validaterUserInput(){
-  let userName = document.getElementById("cname").value;
-  if(userName === "" || username === null){
-    alert("Please enter your name");
-    return false;
-  }
+//clear form
+function clearForm() {
+  document.getElementById("intouch").reset();
 }
 
-$("#intouch").submit(function(event){
-  $()
-})
+  $("form#intouch").submit(function(){
+    var userName = $("input#cname").val();
+    var userEmail = $("input#snailmail").val();
+    var message = $("textarea#writeit").val();
+    if ($("input#cname").val() && $("input#snailmail").val()){
+      alert (userName + ", we have received your message. Thank you for reaching out to us.");
+    }
+    else {
+      alert("Please provide your name and email!");
+    }
+  });
+
 
 // Add toggle effect
 

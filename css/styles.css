@@ -4,7 +4,7 @@ body{
 .jumbotron {
     padding: 2rem 1rem;
     margin-bottom: 2rem;
-    background-image: url("../images/jbackground.jpg");
+    background-image: url("../images/backgrounds/jbackground.jpg");
     background-size: cover;
     height: 800px;
     border-radius: 0.3rem;
