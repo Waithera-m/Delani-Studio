@@ -22,9 +22,20 @@ $(document).ready(function(){
     "color":"white",
   }
   );
-  // $(".clickable").click(function(){
-  //   $('#arrow.p').hide();
-  // }
-  // );
+  $(".clickable").click(function(){
+    $("#arrow-hidden").toggle();
+    $("#arrow-showing").toggle();
+  }
+  );
+  $(".clickableOne").click(function(){
+    $("#folder-hidden").toggle();
+    $("#folder-showing").toggle();
+  }
+  );
+  $(".clickableTwo").click(function(){
+    $("#clipboard-hidden").toggle();
+    $("#clipboard-showing").toggle();
+  }
+  )
 }
 )
