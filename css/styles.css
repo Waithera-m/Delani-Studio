@@ -70,10 +70,26 @@ body{
 }
 input[type="text"] {
   background: transparent;
+  width: 60%;
 }
 textarea[type="text"]{
   background: transparent;
+  width: 70%;
 }
+.form-control {
+  display: block;
+  width: 90%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 5 5px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-clip: padding-box;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
 .containercinq {
   width: 60%;
   justify-content: center;
@@ -83,6 +99,7 @@ textarea[type="text"]{
   margin-right: auto;
   margin-left: auto;
   display: block;
+  margin-bottom: 20px;
 }
 /* #arrow {
   display: none;
