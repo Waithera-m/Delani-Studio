@@ -56,26 +56,31 @@ body{
   display: block;
 }
 .containerQuatre {
-  display: -ms-flexbox;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
   background-image: url("/home/mary/Documents/moringa-school-projects/Delani-Studios/images/backgrounds/c_image.jpg");
   width: 100%;
-  align-items: center;
-  height: 300px;
+  height: 480px;
   margin-top: 40px;
   margin-bottom: 20px;
-  margin-left:-144px;
+  margin-left:auto;
+  background-size: cover;
+  /* background-position: center; */
+}
+.contact {
+  color: white;
+  text-align: center;
 }
 input[type="text"] {
   background: transparent;
   width: 60%;
+  color: white;
+  margin-left: 200px;
+  margin-right: 50px;
 }
 textarea[type="text"]{
   background: transparent;
   width: 70%;
+  color: white;
+  margin-left: 220px;
 }
 .form-control {
   display: block;
