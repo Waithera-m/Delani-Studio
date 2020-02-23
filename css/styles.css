@@ -19,18 +19,19 @@ body{
   margin-left: 650px;
   width: auto;
 }
-.containerOne {
+.containerUn {
   display: -ms-flexbox;
   -ms-flex-direction: column;
   flex-direction: column;
-  min-width: 0;
+  width: 100%;
   word-wrap: break-word;
   background-image: url("/home/mary/Documents/moringa-school-projects/Delani-Studios/images/backgrounds/s_image.jpg");
-  height: 240px;
+  background-size: cover;
+  height: 440px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.containerTwo {
+.containerDeux {
   width: 80%;
   justify-content: center;
   align-items: center;

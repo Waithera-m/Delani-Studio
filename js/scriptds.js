@@ -23,18 +23,18 @@ $(document).ready(function(){
   }
   );
   $(".clickable").click(function(){
-    $("#arrow-hidden").toggle();
-    $("#arrow-showing").toggle();
+    $("#arrow-hidden").slideToggle();
+    $("#arrow-showing").slideToggle();
   }
   );
   $(".clickableOne").click(function(){
-    $("#folder-hidden").toggle();
-    $("#folder-showing").toggle();
+    $("#folder-hidden").slideToggle();
+    $("#folder-showing").slideToggle();
   }
   );
   $(".clickableTwo").click(function(){
-    $("#clipboard-hidden").toggle();
-    $("#clipboard-showing").toggle();
+    $("#clipboard-hidden").slideToggle();
+    $("#clipboard-showing").slideToggle();
   }
   )
 }
