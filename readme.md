@@ -6,7 +6,8 @@ The website captures some of the features that make Delani Studio unique. The si
 ## Setup/Installation Requirements
 To use the application, users need internet access and web browsers, preferably  Chrome, Safari, and Firefox.
 ## Known Bugs
-All known bugs have been fixed, but if you encounter any please notify the creator.
+* Mailchimp cannot connect the site and thus, the creator cannot receive users' emails.git a
+* Upon submit the site's users do not receive an alert.
 ## Behavior Driven Development (BDD)
 |Behavior               |Input                                           |Output                                                      |
 |-----------------------|------------------------------------------------|------------------------------------------------------------|
