@@ -1,3 +1,5 @@
+//Align text and change font color
+
 $(document).ready(function(){
   $("#header").css({
     "text-align": "center",
@@ -22,6 +24,10 @@ $(document).ready(function(){
 }
 );
 
+
+
+// Add toggle effect
+
 $(document).ready(function(){
   $(".clickable").click(function(){
     $("#arrow-hidden").slideToggle();
@@ -35,6 +41,8 @@ $(document).ready(function(){
     $("#clipboard-hidden").slideToggle();
     $("#clipboard-showing").slideToggle();
   });
+
+  //Add hover effect
 
   $("#work4").mouseenter(function(){
     $("#overlay").show();
