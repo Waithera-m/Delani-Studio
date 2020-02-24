@@ -32,6 +32,7 @@ function clearForm() {
   document.getElementById("intouch").reset();
 }
 
+$(document).ready(function(){
   $("form#intouch").submit(function(){
     var userName = $("input#cname").val();
     var userEmail = $("input#snailmail").val();
@@ -43,6 +44,8 @@ function clearForm() {
       alert("Please provide your name and email!");
     }
   });
+})
+ 
 
 
 // Add toggle effect
