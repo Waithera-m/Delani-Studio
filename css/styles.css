@@ -1,5 +1,5 @@
 body{
-  font-family: 'Quicksand', ;
+  font-family: 'Raleway', ;
 }
 .jumbotron {
     padding: 2rem 1rem;
@@ -35,15 +35,15 @@ body{
   width: 80%;
   justify-content: center;
   align-items: center;
-  padding-right: 40px;
-  padding-left: 80px;
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 15%;
+  margin-left: 15%;
   display: block;
   padding-bottom: 20px;
+  column-gap: 100px;
 }
 .do {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 .pft {
   width: 100%;
@@ -73,7 +73,7 @@ body{
   left: 0;
   right: 0;
   padding-top: 40%;
-  font-family: 'Noto Sans JP', ;
+  font-family: 'Montserrat', ;
   font-weight: bold;
   font-size: x-large;
 }
@@ -108,17 +108,15 @@ body{
 input[type="text"] {
   display: inline;
   background: transparent;
-  width: 70%;
-  color: white;
   align-items: center;
-  margin-left: 100px;
-  margin-right: -100px;
 }
 textarea[type="text"]{
   background: transparent;
-  width: 70%;
+  width: 80%;
+  margin-left: 50px;
+}
+input::placeholder {
   color: white;
-  margin-left: 200px;
 }
 .form-control {
   display: block;
@@ -134,10 +132,27 @@ textarea[type="text"]{
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .btn {
-  margin-left: 400px;
+  margin-left: 200px;
+
+}
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: inline-block;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  width: 60%;
+  word-wrap: break-word;
+  background-color:transparent;
+  background-clip: border-box;
+  border: none;
+  border-radius: 0.25rem;
+  margin-left: 20%;
+  align-content: center;
 }
 .containercinq {
-  width: 60%;
+  width: 80%;
   justify-content: center;
   align-items: center;
   padding-right: 10px;
@@ -147,3 +162,4 @@ textarea[type="text"]{
   display: block;
   margin-bottom: 20px;
 }
+
